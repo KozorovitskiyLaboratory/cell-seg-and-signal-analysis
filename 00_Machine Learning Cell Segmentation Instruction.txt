@@ -1,0 +1,17 @@
+Machine Learning Cell Segmentation Instruction
+
+1. Remotely connect to K-Lab Dell Workstation
+
+2. Go to the Terminal
+
+3. Type the following:
+conda activate cellpose
+
+4. Now the conda environment for cell segmentation machine learning library is activated. 
+Prepare the cell image (dapi channel (usually channel 1)) and the directory that it the image is stored.
+
+5. Type the following: 
+python -m cellpose --dir (directory where cell image is stored) --pretrained_model cyto --do_3D --chan 0 --use_gpu --learning_rate 0.1 --n_epochs 800 --batch_size 20 --cellprob_threshold 0 --save_tif 
+(NOTE after --dir, type the directory where cell image is stored WITHOUT the parentheses)
+
+6. After several minutes, the segmented cell image would be saved to the directory that you typed in the above command line. (Refer to the sample result in this file: 'Series5_C1_cp_masks_cellprobthresh0.tif') 
