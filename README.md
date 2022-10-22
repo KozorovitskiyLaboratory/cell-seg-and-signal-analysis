@@ -1,4 +1,6 @@
 # cell-seg-and-signal-analysis
 Cell Segmentation/Detection and Signal Analysis pipeline
 
-[Standard-Operating-Procedure_ver1.pdf](https://github.com/laurenhyoseoyoon/cell-seg-and-signal-analysis/files/9845211/Standard-Operating-Procedure_ver1.pdf)
+Refer to the following for the Standard Operating Procedure: 
+https://github.com/laurenhyoseoyoon/cell-seg-and-signal-analysis/blob/main/Standard-Operating-Procedure_ver1.pdf
+
